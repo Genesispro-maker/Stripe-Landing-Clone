@@ -50,6 +50,7 @@ body{
 
 .navLinks:hover{
   background-color: var(--hightcolor);
+  cursor: pointer;
 }
 
 .mainWrapper{
@@ -72,7 +73,7 @@ body{
 }
 .dev{
     display: inline-block;
-    width: 150px;
+    width: 200px;
 }
 
 .introText{
@@ -90,6 +91,10 @@ rect{
     animation-delay: calc(var(--i) * 0.1s);
 }
 
+rect:hover{
+  fill: var(--hightcolor);
+  cursor: pointer;
+}
 /* feature*/
 .featuredContainer{
     display: flex;
@@ -113,6 +118,7 @@ rect{
 }
 
 
+/* section */
 section:first-of-type{
     display: flex;
 }
